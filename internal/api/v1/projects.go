@@ -10,3 +10,5 @@ type Project struct {
 	Technologies []string `json:"technologies"`
 }
 
+// Projects ...
+type Projects []*Project
